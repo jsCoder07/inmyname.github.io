@@ -1,0 +1,111 @@
+.nav {
+  width: 100vw;
+  height: 97px;
+  background: #ffffff;
+  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2),
+    -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  z-index: 10 !important;
+  position: fixed;
+}
+.innerNav {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  cursor: pointer;
+}
+.innerNav > .logo {
+  max-width: 100px;
+}
+.menu > div {
+  width: 50px;
+  height: 5px;
+  background: #777;
+  margin-top: 5px;
+  transition: all 0.5s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu:hover > .line2 {
+  width: 35px;
+}
+.menu:focus > .line2 {
+  width: 35px;
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  width: 0;
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -10px);
+}
+.navigation {
+  position: absolute;
+  top: 97px;
+  right: 0;
+  width: 95%;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.2),
+    -6px -6px 4px 0 rgba(255, 255, 255, 1);
+  min-height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+.navigation > .navlinks {
+  width: 100%;
+}
+.navigation > .navlinks > li {
+  list-style: none;
+  opacity: 0;
+  cursor: pointer;
+  width: 100% !important;
+  padding: 2rem !important;
+  box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.2),
+    -6px -6px 8px 0 rgba(255, 255, 255, 1);
+}
+.navigation > .navlinks > li > a.menulinks {
+  color: #ea3a10;
+  text-decoration: none;
+  font-family: Montserrat-Regular;
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navlinkfade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/*Mobile Styles*/
+@media screen and (max-width: 786px) {
+  .innerNav {
+    width: 90vw;
+  }
+}
+.size {
+  opacity: 1;
+  height: auto;
+  width: auto;
+  z-index: 1;
+  transition: all 0.7s ease-in-out;
+}

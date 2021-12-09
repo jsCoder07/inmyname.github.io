@@ -1,0 +1,224 @@
+.txtinput {
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dedede;
+  margin-bottom: 20px;
+  font-size: 1em;
+  padding: 11px 25px;
+  padding-left: 55px;
+  width: 100%;
+  color: #777;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+}
+.txtinput:focus {
+  color: #333;
+  border-color: rgba(41, 92, 161, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset,
+    0 0 8px rgba(41, 92, 161, 0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset,
+    0 0 8px rgba(41, 92, 161, 0.6);
+  outline: 0 none;
+}
+
+#form {
+  padding-top: 20px;
+  font-size: 70%;
+}
+#sub {
+  width: 150px;
+}
+.month {
+  width: 100px;
+}
+.approv {
+  width: 200px;
+}
+.year {
+  width: 70px;
+}
+.nation {
+  width: 210px;
+}
+.pro {
+  width: 210px;
+}
+.day {
+  width: 70px;
+}
+.inp {
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dedede;
+  margin-bottom: 15px;
+  font-size: 1.55em;
+  padding: 4px 1px;
+  padding-left: 10px;
+  width: 95%;
+  min-height: 50px;
+  background: #fff;
+  color: #777;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+}
+.sex {
+  width: 210px;
+}
+
+.subinput {
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  clear: both;
+  margin-top: 5%;
+  padding: 1%;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: 30%;
+  color: #777;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+}
+.imf {
+  border: 1px solid #dddddd;
+  display: block;
+  width: 80%;
+  background: none;
+}
+.imf:focus {
+  border: 1px solid #dddddd;
+  display: block;
+  width: 80%;
+  background: none;
+}
+.inpf {
+  color: #333;
+  border-color: rgba(41, 92, 161, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset,
+    0 0 8px rgba(41, 92, 161, 0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset,
+    0 0 8px rgba(41, 92, 161, 0.6);
+  outline: 0 none;
+}
+textarea {
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dedede;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  padding: 11px 25px;
+  padding-left: 55px;
+  width: 80%;
+  color: #777;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  -o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s,
+    color 0.15s linear 0s;
+  margin-top: 10px;
+}
+textarea:focus {
+  color: #333;
+  border-color: rgba(41, 92, 161, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(40, 90, 160, 0.6);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset,
+    0 0 8px rgba(40, 90, 160, 0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset,
+    0 0 8px rgba(40, 90, 160, 0.6);
+  outline: 0 none;
+}
+textarea#classified {
+  background: #fff url("../icons/classifieds.png") 5px 4px no-repeat;
+}
+textarea#pobox {
+  background: #fff url("../images/icons/pobox.png") 5px 4px no-repeat;
+}
+textarea#interest {
+  background: #fff url("../images/icons/interest.png") 5px 4px no-repeat;
+}
+textarea#ofadd {
+  background: #fff url("../images/icons/office.png") 5px 4px no-repeat;
+}
+textarea#hadd {
+  background: #fff url("../images/icons/home.png") 5px 4px no-repeat;
+}
+textarea#kids {
+  background: #fff url("../images/icons/children.png") 5px 4px no-repeat;
+}
+input#firstname {
+  background: #fff url("../assets/icons/user.png") 5px 4px no-repeat;
+}
+input#lastname {
+  background: #fff url("../assets/icons/customers.png") 5px 4px no-repeat;
+}
+input#password {
+  background: #fff url("../assets/icons/password.png") 5px 4px no-repeat;
+}
+input#conpassword {
+  background: #fff url("../assets/icons/lock.png") 5px 4px no-repeat;
+}
+input#email {
+  background: #fff url("../assets/icons/amails.png") 5px 4px no-repeat;
+}
+input#telephone {
+  background: #fff url("../assets/icons/phonei.jpg") 5px 4px no-repeat;
+}
+@media only screen and (min-width: 1120px) {
+  .inp {
+    width: 65%;
+  }
+  textarea {
+    width: 55%;
+  }
+}
+input.btn,
+a.btn {
+  padding: 1em 2em;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #dedede;
+  color: #777;
+}
+a.btn {
+  background: rgba(255, 255, 255, 0.7);
+}
